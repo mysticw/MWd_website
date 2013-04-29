@@ -1,0 +1,13 @@
+diff --git a/mothership/functions/form.php b/mothership/functions/form.php
+index 04d55a9..efb5623 100644
+--- a/mothership/functions/form.php
++++ b/mothership/functions/form.php
+@@ -73,7 +73,7 @@ function mothership_form_element($variables) {
+   }
+ 
+   //if the form element is reguired add a form-required class
+-  if( $element['#required'] ) {
++  if(!empty($element['#required'])) {
+     $attributes['class'][] = 'form-required';
+   }
+ 

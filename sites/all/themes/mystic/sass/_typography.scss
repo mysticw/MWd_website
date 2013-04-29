@@ -1,0 +1,259 @@
+// typography css
+
+/* Default font settings
+
+	The font percentage is of 18px. (0.75 * 18px = 13.5px) */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,300italic,500italic,100);
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+@import url(http://fonts.googleapis.com/css?family=Squada+One);
+
+
+html {
+	font-size: 100.01%;
+}
+
+body {
+	font-size: 80%;
+	font-family: "Lusitana:400", serif;
+}
+
+
+
+/* Headings
+----------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto:300", sans-serif;
+	/*font-weight: bold; */
+}
+
+h1 {
+	font-size: 1.65em; line-height: 1; margin: 0.5em 0 1.5em 0;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 1.45em; line-height: 1; margin-bottom: 1.25em;
+}
+
+h3 {
+	font-size: 1.35em; line-height: 1; margin-bottom: 1em;
+}
+
+h4 {
+	font-size: 1.15em; line-height: 1; margin-bottom: 0.85em;
+}
+
+h5 {
+	font-size: 1.05em; line-height: 1; margin-bottom: 0.65em;
+}
+
+h6 {
+	font-size: 0.85em; line-height: 1; margin-bottom: 0.35em;
+}
+
+
+
+/* Text Elements
+------------------------------------------------------------- */
+
+p {
+	margin: 1em 0 1.5em;
+	/*text-indent: 15px;*/
+	line-height: 1.45em;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1em; 
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+}
+
+blockquote {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	margin: 1em 3em;
+}
+
+blockquote {
+	quotes: '\201c' '\201d';
+}
+
+blockquote:before {
+	content: open-quote;
+}
+
+blockquote:after {
+	content: close-quote;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+i, cite, em, var, address, dfn {
+	font-style: italic;
+} 
+
+header[role='banner'] nav ul li a {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	color: #ccc;
+}
+
+p img {
+	float: right;
+	margin-right: 2em;
+	padding: 0 1.5em 1.5em 0;
+}
+
+
+
+
+/* Lists
+------------------------------------------------------------- */
+
+li ul,
+li ol {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 1.5em;
+}
+
+ul li {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+dl {
+	margin: 0 0 1.5em 0;
+}
+
+dl dt {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+dd {
+	margin: 0 0 1em 1.5em;
+}
+
+
+/* Table styles
+-------------------------------------------------------------- */
+
+
+table {
+	margin: 1.4em auto;
+	width: 90%;
+}
+
+th {
+	font-weight: bold;
+}
+
+thead th {
+	background: #c3d9ff;
+}
+
+th, td caption {
+	padding: 1em 1em 0.5em 0.5em;
+}
+
+/* tbody tr:nth-child(even) td,
+tbody tr.even td {
+	background: #e5ecf9;
+	padding: 0.5em;
+} */
+
+
+tbody tr.odd td {
+	padding: 0.5em;
+}
+
+tr td, tr th {
+	/*border: 1px solid #fff;*/
+	border: none;
+}
+
+tfoot {
+	font-style: italic;
+}
+
+caption {
+	background: #eee;
+}
+
+
+/* Header styles
+-------------------------------------------------------------- */
+
+header[role='banner'] .siteinfo hgroup h1 {
+	font-family: "ITC Avant Garde Gothic", Helvetica, sans-serif;
+	font-style: normal;	
+	font-size: 1.821em;
+	margin: 0.5em 0 0.15em 0;
+	color: #fff;
+	line-height: 1;
+}
+
+header[role='banner'] .siteinfo hgroup h2 {
+	color: #fff;
+	font-size: 0.925em;
+	font-style: italic;
+}
+
+/* Main Content Syyle
+-------------------------------------------------------------- */
+
+.node-type-article h1 {
+	font-family: serif;
+	font-style: normal;
+}
+
+/* About Page - Services section */
+
+#block-block-2 ul li {
+	color: #cc0000;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+/* Blog Article styles */
+
+.page-node-355 h1 {
+	font-weight: bold;
+}
+
+
+/* Footer styles
+-------------------------------------------------------------- */
+
+.footer_top h2 {
+	font-size: 1em;
+	margin-bottom: 0.65em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+
+
