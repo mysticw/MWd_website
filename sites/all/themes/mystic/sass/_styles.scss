@@ -7,7 +7,7 @@ body {
 	@include background-image(linear-gradient(#bcbcbc, #fff))
 }
 
-.active .active-trail {
+.active, .active-trail {
 	font-weight: normal;
 	color: #fff;
 }
@@ -52,7 +52,7 @@ header[role='banner'] nav ul li a {
 
 #block-views-nodequeue-1-block, 
 #block-views-nodequeue-2-block {
-	margin-top:-105px;
+	margin-top:-90px;
 	position: relative;
 }
 
@@ -273,17 +273,17 @@ div .page {
 /* Portfolio - Project pages styles
 --------------------------------------------- */
 
-.node-project .field.field-type-image {
+/*.node-project .field.field-type-image {
 	margin: 0 0 15px 133px;
 	border-bottom: none;
 	width: 480px;
-}
+}*/
 
 .node-project .field.field-type-image img {
 	margin-bottom: -4px;
 }
 
-.node-project .field.field-type-text {
+/*.node-project .field.field-type-text {
 	float: left;
 	margin-left: 25px;
 	position: absolute;
@@ -292,13 +292,15 @@ div .page {
 	width: 180px;
 	background: #aaa;
 	padding: 10px 10px 80px 10px;
-	/*border: 1px solid #000; */
 	color: #fff;
-}
+}*/
 
-.node-project .field.field-type-text-with-summary {
-	margin-left: 133px;
-	width: 475px;
+.node-project {
+	
+	.field.field-type-text-with-summary {
+		margin-left: 0;
+		width: 410px;
+	}
 }
 
 /* Blog - Interesting Bit styles
