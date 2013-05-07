@@ -439,6 +439,10 @@ div.views-field.views-field-field-social-network-link {
 			width: 200px;	
 			padding-left: 15px;	
 		}
+
+		.views-row {
+			padding-left: 60px;
+		}
 	}
 }
 
@@ -539,7 +543,7 @@ article.node.node-page {
 .page-node-321 .field.field-type-text-with-summary {
 	padding-right: 1.5em;
 	border-right: 1px solid #000;
-	margin: 0 11em;
+	margin: 0 11em 0 0;
 }
 
 

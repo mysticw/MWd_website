@@ -308,7 +308,7 @@ div .page {
 
 .view-id-articles .views-row {
 	position: relative;
-	padding-left: 60px;
+	/*padding-left: 60px;*/
 
 	&::after {
 		@extend .clearfix-after;
@@ -499,10 +499,25 @@ footer[role='contentinfo'] .footer {
 	background: #666666;
  }
 
-
-
-footer[role='contentinfo'] nav ul li a {
+footer[role='contentinfo'] nav ul li a,
+#block-block-6 ul li a {
 	color: #ff9900;
+	padding-right: 0;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+footer[role='contentinfo'] nav ul li a:hover,
+#block-block-6 ul li a:hover {
+	color: #ffff00;
+}
+
+footer[role='contentinfo'] .inner {
+	padding-bottom: 10px;
+}
+
+footer[role='contentinfo'] li.leaf {
+	padding-right: 0;
 }
 
 
