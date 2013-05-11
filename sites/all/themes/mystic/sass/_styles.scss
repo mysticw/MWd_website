@@ -303,6 +303,53 @@ div .page {
 	}
 }
 
+/* Project Node styles */
+
+#block-views-projects-block-project-details {
+	position: absolute;
+	left: 545px;
+	top: 340px;
+	padding: 10px 10px 30px 10px;
+	background: #fff;
+	/*width: 250px;*/
+
+	.views-field-field-client-name,
+	.views-field-field-project-link,
+	.views-field-field-services-provided {
+		display: block;
+		padding-bottom: 10px;
+	}
+
+	.views-field-field-project-category {
+		padding-bottom: 10px;
+	}
+
+	.field-content {
+		/*display: inline;*/
+		padding-top: 3px;
+
+		a {
+			color: #000;
+
+			&:hover {
+				color: #cc0000;
+			}
+		}
+	}
+
+	.views-label-field-client-name,
+	.views-label-field-project-category,
+	.views-label-field-project-link,
+	.views-label-field-services-provided,
+	.views-label-field-timeframe {
+		font-weight: bold;
+	}
+
+}
+
+
+
+
 /* Blog - Interesting Bit styles
 ---------------------------------------------- */
 
