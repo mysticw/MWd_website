@@ -979,22 +979,41 @@ div[role='main'] .views-field.views-field-title a {
 #block-views-articles-block-2 h2 {
   margin-bottom: 15px; }
 
+/* Blog Read More Button styles */
+/* line 529, ../sass/_styles.scss */
+.node-teaser ul li {
+  list-style: none;
+  padding-bottom: 25px; }
+
+/* line 534, ../sass/_styles.scss */
+.node-teaser ul {
+  padding-left: 0;
+  border-bottom: 1px dotted; }
+
+/* line 539, ../sass/_styles.scss */
+.node-readmore a {
+  background: #ff9900;
+  padding: 7px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase; }
+
 /* Footer Styles
 -------------------------------------------- */
 /* Footer Top Style
 -------------------------------------------- */
-/* line 534, ../sass/_styles.scss */
+/* line 554, ../sass/_styles.scss */
 footer[role='contentinfo'] .footer_top {
   border-top: 20px solid #ff9900;
   background: #ccc; }
 
 /* Footer Bottom Style
 -------------------------------------------- */
-/* line 545, ../sass/_styles.scss */
+/* line 565, ../sass/_styles.scss */
 footer[role='contentinfo'] .footer {
   background: #666666; }
 
-/* line 550, ../sass/_styles.scss */
+/* line 570, ../sass/_styles.scss */
 footer[role='contentinfo'] nav ul li a,
 #block-block-6 ul li a {
   color: #ff9900;
@@ -1002,32 +1021,32 @@ footer[role='contentinfo'] nav ul li a,
   padding-left: 5px;
   text-decoration: none; }
 
-/* line 558, ../sass/_styles.scss */
+/* line 578, ../sass/_styles.scss */
 footer[role='contentinfo'] nav ul li a:hover,
 #block-block-6 ul li a:hover {
   color: #ffff00; }
 
-/* line 562, ../sass/_styles.scss */
+/* line 582, ../sass/_styles.scss */
 footer[role='contentinfo'] .inner {
   padding-bottom: 10px; }
 
-/* line 566, ../sass/_styles.scss */
+/* line 586, ../sass/_styles.scss */
 footer[role='contentinfo'] li.leaf {
   padding-right: 0; }
 
-/* line 571, ../sass/_styles.scss */
+/* line 591, ../sass/_styles.scss */
 #block-block-6 ul {
   margin: 0;
   text-align: right; }
 
-/* line 576, ../sass/_styles.scss */
+/* line 596, ../sass/_styles.scss */
 #block-block-6 ul li {
   color: #fff;
   list-style: none;
   text-align: right;
   font-weight: normal; }
 
-/* line 583, ../sass/_styles.scss */
+/* line 603, ../sass/_styles.scss */
 #block-block-6 ul li a {
   color: #ff9900; }
 

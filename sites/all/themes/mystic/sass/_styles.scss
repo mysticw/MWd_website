@@ -524,6 +524,26 @@ div[role='main'] .views-field.views-field-title a {
 }
 
 
+/* Blog Read More Button styles */
+
+.node-teaser ul li {
+	list-style: none;
+	padding-bottom: 25px;
+}
+
+.node-teaser ul {
+	padding-left: 0;
+	border-bottom: 1px dotted;
+}
+
+.node-readmore a {
+	background: #ff9900;
+	padding: 7px;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
 /* Footer Styles
 -------------------------------------------- */
 
