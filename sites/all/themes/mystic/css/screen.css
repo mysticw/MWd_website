@@ -808,10 +808,10 @@ div .page {
     padding-top: 3px; }
     /* line 331, ../sass/_styles.scss */
     #block-views-projects-block-project-details .field-content a {
-      color: #000; }
+      color: #cc0000; }
       /* line 334, ../sass/_styles.scss */
       #block-views-projects-block-project-details .field-content a:hover {
-        color: #cc0000; }
+        color: #000; }
   /* line 344, ../sass/_styles.scss */
   #block-views-projects-block-project-details .views-label-field-client-name,
   #block-views-projects-block-project-details .views-label-field-project-category,
