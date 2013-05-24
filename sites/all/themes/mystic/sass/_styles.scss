@@ -20,6 +20,10 @@ body {
 	}
 }
 
+td {
+	text-align: center;
+}
+
 /* Header Styles
 --------------------------------------------- */
 
@@ -205,6 +209,15 @@ div .page {
 
 }
 
+#block-views-projects-block-7 a img {
+	padding: 5px 5px 25px 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+
+	&:hover {
+		border: 1px solid #ff9900;
+	}
+}
 
 /* Portfolio Image Info Bar
 -------------------------------------------- */
