@@ -5,7 +5,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,38 +26,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -176,7 +176,7 @@ header[role='banner'] nav ul li a {
   /*color: #999999;*/
   font-style: normal;
   z-index: 15;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
   padding-bottom: 6px;
   width: 690px; }
 
@@ -274,7 +274,7 @@ div[role='main'] {
 .field.field-type-image {
   background: url("../images/background_about_2.png") no-repeat left bottom;
   /*margin: 0 0 15px 15px;*/
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #000;
   width: 480px; }
 
 /* line 247, ../sass/_layout.scss */
@@ -325,7 +325,7 @@ footer[role='contentinfo'] nav ul li a {
 /* line 294, ../sass/_layout.scss */
 #block-views-social-networking-links-block-1 {
   width: 210px;
-  padding: 1em 0.5em;
+  padding: 1em .5em;
   margin: 0 1em 0 0; }
 
 /* line 300, ../sass/_layout.scss */
@@ -349,7 +349,7 @@ footer[role='contentinfo'] nav ul li a {
 
 /* line 321, ../sass/_layout.scss */
 #block-views-projects-block-3 p {
-  margin: 0.7em 0 1.5em;
+  margin: .7em 0 1.5em;
   line-height: 1.45em; }
 
 /* line 327, ../sass/_layout.scss */
@@ -367,15 +367,15 @@ footer[role='contentinfo'] nav ul li a {
 #block-views-articles-block-1 {
   width: 210px;
   margin: 0 1em 0 0;
-  padding: 1em 0.35em 0 0.35em; }
+  padding: 1em 0.35em 0 .35em; }
 
 /* line 345, ../sass/_layout.scss */
 div.views-field.views-field-field-social-network-link {
-  margin: 0 0.15em 0 0; }
+  margin: 0 .15em 0 0; }
 
 /* line 349, ../sass/_layout.scss */
 .footer_top .item-list ul li {
-  border-bottom: 0.15em solid #999999;
+  border-bottom: 0.15em solid #999;
   list-style: none;
   margin: 0.65em 0 1em 0;
   padding-bottom: 0.5em; }
@@ -525,7 +525,7 @@ article.node.node-page {
 .page-node-320 .field.field-type-text-with-summary,
 .page-node-321 .field.field-type-text-with-summary {
   padding-right: 1.5em;
-  border-right: 1px solid black;
+  border-right: 1px solid #000;
   margin: 0 11em 0 0; }
 
 /* Global Styles
@@ -610,7 +610,7 @@ div .page {
 /* line 85, ../sass/_styles.scss */
 .page-node-115 article p,
 .page-node-113 article p {
-  font-family: "Squada One", cursive;
+  font-family: 'Squada One', cursive;
   font-size: 2.5em;
   text-align: center;
   /*color:#cc0000;*/
@@ -619,7 +619,7 @@ div .page {
 
 /* line 95, ../sass/_styles.scss */
 .page-node-113 article p {
-  font-family: "Squada One", cursive;
+  font-family: 'Squada One', cursive;
   font-size: 2em;
   text-align: center;
   margin: 5px 0; }
@@ -693,7 +693,7 @@ div .page {
     text-transform: uppercase; }
 /* line 191, ../sass/_styles.scss */
 #views-exposed-form-projects-block-7 .form-item .form-item .form-item {
-  border-right: 1px solid black; }
+  border-right: 1px solid #000; }
   /* line 194, ../sass/_styles.scss */
   #views-exposed-form-projects-block-7 .form-item .form-item .form-item:last-child {
     border-right: none; }
@@ -709,7 +709,7 @@ div .page {
 /* line 212, ../sass/_styles.scss */
 #block-views-projects-block-7 a img {
   padding: 5px 5px 25px 5px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   margin-bottom: 10px; }
   /* line 217, ../sass/_styles.scss */
   #block-views-projects-block-7 a img:hover {
@@ -756,13 +756,13 @@ div .page {
 -------------------------------------------- */
 /* line 269, ../sass/_styles.scss */
 #block-block-2 {
-  border-top: 1px solid black;
+  border-top: 1px solid #000;
   margin-top: 0;
   padding-top: 15px; }
 
 /* line 275, ../sass/_styles.scss */
 #block-views-people-block-1 h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
   padding-bottom: 5px; }
 
 /* line 281, ../sass/_styles.scss */
@@ -841,7 +841,7 @@ div .page {
   /*padding-left: 60px;*/ }
   /* line 377, ../sass/_styles.scss */
   .view-id-articles .views-row .views-field.views-field-body {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000;
     margin-bottom: 20px; }
   /* line 382, ../sass/_styles.scss */
   .view-id-articles .views-row p {
@@ -883,7 +883,7 @@ div[role='main'] .views-field.views-field-title a {
 /* line 422, ../sass/_styles.scss */
 .views-field.views-field-field-image a img {
   border-radius: 10px;
-  border: 1px solid black; }
+  border: 1px solid #000; }
 
 /* line 427, ../sass/_styles.scss */
 #comments h2 {
@@ -977,7 +977,7 @@ div[role='main'] .views-field.views-field-title a {
 #block-views-articles-block-2 .item-list ul li {
   list-style: none;
   padding: 5px 0;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid #000; }
 
 /* line 526, ../sass/_styles.scss */
 #block-views-articles-block-2 .views-field.views-field-title a {
@@ -1147,7 +1147,7 @@ blockquote {
 
 /* line 89, ../sass/_typography.scss */
 blockquote {
-  quotes: "\201c" "\201d"; }
+  quotes: '\201c' '\201d'; }
 
 /* line 93, ../sass/_typography.scss */
 blockquote:before {
